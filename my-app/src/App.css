@@ -1,0 +1,45 @@
+/* header css */ 
+.header {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(https://github.com/fethica/BookSearch-React/blob/master/img/bgheader.jpg?raw=true);
+  height: 200px;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  color: #fff;
+}
+
+.header input {
+  width: auto;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 45px;
+}
+
+.header input:focus {
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.header button {
+  width: auto;
+  height: 33px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  color: #333;
+  border-color: #ccc;
+}
+
+.header button:focus {
+  background-color: rgb(90, 219, 90);
+}
